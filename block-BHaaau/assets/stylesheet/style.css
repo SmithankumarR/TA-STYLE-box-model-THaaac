@@ -47,82 +47,85 @@ table {
 	border-spacing: 0;
 }
 /* custom styles */
+body{
+    line-height: 1.5;
+    padding: 20px;
+}
 .header{
     text-align: center;
-    font-size: 34px;margin: 40px;
-    padding: 5px;
-    font-weight: 300;
+    font-size: 64px;
+    padding: 32px 180px;
 
 }
 h2{
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
+    margin: 20px;
     padding: 30px;
 }
 hr{
-    padding: 30px;
+    width:500px;
+border-style: dashed;
+margin:32px auto;
+border-color: gray;
 }
 .box1{
-    width:150px;
-    height:150px;
-background-color: #D9F6D4;
-border: 3px solid black;
-box-shadow :inset 10px 10px 4px rgb(173,216,230);
-outline: 12px solid rgb(237,127,128);
-margin:0 auto;
-}
+    width:200px;
+    height:200px;
+    margin:0 auto;
+background-color: #7ee26c;
+border: 20px solid  rgb(173,216,230);
+outline: 12px solid black;
+box-shadow:0 0 0 30px  rgb(237,127,128);
 
-.item{
+}
+.marker-container{
     text-align: center;
-    padding: 20px;
-    display: inline-block
+    margin-top: 40px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #6be057;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 12px;
     
 }
-.content{
-    margin-left:300px;
-    width: 20px;
-    border-radius: 50%;
-    background-color:  #D9F6D4;;
-}
 .padding{
-    margin-left:400px;
-    width: 20px;
-    border-radius: 50%;
     background-color: rgb(173,216,230);
 }
 .border{
-    margin-left:500px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: black ;
+    background-color: black;
 }
 .margin{
-    margin-left: 600px;
-    width: 20px;
-    border-radius: 50%;
-    background-color: rgb(237,127,128);
+    background-color:  rgb(237,127,128);
 }
-.first-container{
+.marker{
+    text-align: center;
     display: inline-block;
+    padding: 10px;
+
+}
+p{
+    text-align: center;
+    font-size: 24px;
+}
+.container{
     width: 600px;
-    height: 100px;
-    border: 2px solid black;
-    text-align: center;
-    margin: 0 auto;
+    border: 1px solid black;
+    margin:24px auto;
+    font-size: 0;
 }
-h3{
-    text-align: center;
-    padding: 15px;
+.first-box{width: 180px;
+height: 100px;
+margin:10px;
+background-color: gray;
+display:inline-block;
 }
-.first-box{
-    width: 135px;
-background-color: #d42222;
+.border{
+    border: 1px solid black;
 }
-.second-box{
-   
-background-color: #CCCCCC;
-}
-.third-box{
-   
-background-color: #CCCCCC;
-}
+.border-box{
+box-sizing: border-box;}
