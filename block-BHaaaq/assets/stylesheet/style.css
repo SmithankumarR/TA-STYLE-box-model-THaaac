@@ -53,63 +53,43 @@ table {
     font-weight: 600;
     padding:40px;
 }
-.full-border-rec{
+
+.border-rec{
     background-color: #B22E25;
-    border: 5px solid black;
+    border: 5px  solid  black;
     width:210px;
     height: 130px;
     margin: 40px;
-}
-.box1{
     display: inline-block;
-    
 }
-.box2{
-    display:inline-block;
+.double{
+    border: 5px double black;
 }
-.dubble-border-rec{
-    background-color: #B22E25;
-    border: 5px  double  black;
-    width:210px;
-    height: 130px;
-    margin: 40px;
+.dotted{
+    border: 5px dotted black;
 }
-.dashed-border-rec{
-    background-color: #B22E25;
+.dashed{
     border: 5px dashed black;
-    width:210px;
-    height: 130px;
-    margin: 40px;
 }
-.dotted-border-rec{
-    background-color: #B22E25;
-    border:5px dotted black;
-    width:210px;
-    height: 130px;
-    margin: 40px;
-}
-.no-border-rec{
-    background-color: #B22E25;
-    width:210px;
-    height: 130px;
-    margin: 40px;
+.none{
+    border : 0 ;
 }
 .text{
     background-color: red;
     color: white;
     width:400px;
-    height: 500px;
-    padding: 15px;
+    padding: 25px;
+    font-size: 25px;
     margin: 30px;
+    border-top:10px solid #3B79FA;
     border-right: 10px solid #808080;
+    border-bottom:10px solid yellow;
     border-left: 10px solid #41810E;
 
 }
-.border{
-    border-top:10px solid #3B79FA;
-    width: 480px;
-    height:500px;
-    border-bottom: 10px solid #FAE83D;
-    box-shadow: 15px 15px 1px purple;
-    margin: 10px;
+.par-container{
+    background-color: purple;
+    padding:6px 1px;
+    margin: 20px;
+    display: inline-block;
 }
